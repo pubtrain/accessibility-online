@@ -113,12 +113,12 @@ a:visited {
 a:hover {
   text-decoration: none;
   cursor: pointer;
-  background-color: #555;
+  background-color: rgb(160, 245, 160);
 }
 
 a:active {
   text-decoration: none;
-  background-color: black;
+  background-color: #fff;
 }
 
 .link-text-container {
