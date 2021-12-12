@@ -1,0 +1,137 @@
+h1 {
+  font-family: "Montserrat", Georgia, Times, "Times New Roman", serif,
+    sans-serif;
+}
+
+* {
+  font-family: "Source Sans Pro", Georgia, Times, "Times New Roman", serif,
+    sans-serif;
+}
+
+p {
+  font-size: 18px;
+}
+
+li {
+  font-size: 18px;
+}
+
+.container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.body-container {
+  width: 800px;
+  background: rgb(190, 255, 190);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2%;
+}
+
+.header {
+  background: rgba(165, 217, 230, 0.568);
+  padding: 3%;
+  border-radius: 16px;
+  border: 2px solid black;
+}
+
+.links {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.footer {
+  padding: 0;
+  background-color: rgb(247, 244, 244);
+}
+
+.picture1,
+.picture2,
+.picture3 {
+  height: 200px;
+  width: 400px;
+  max-width: 800px;
+}
+
+@media screen and (min-width: 600px) {
+  .text-container {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+  }
+  .textfix {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+  }
+  .p1 {
+    margin-right: 25px;
+  }
+}
+
+.tillgänglighet1,
+.tillgänglighet2,
+.tillgänglighet3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+h4 {
+  margin: 0;
+  margin-bottom: 10px;
+}
+
+aside {
+  margin: 20px 0px;
+}
+
+a:link {
+  text-decoration: none;
+  border: 1px solid black;
+  border-radius: 16px;
+  padding: 5px;
+  color: white;
+  background-color: rgb(190, 255, 190);
+  font-size: 18px;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+  cursor: pointer;
+  background-color: #555;
+}
+
+a:active {
+  text-decoration: none;
+  background-color: black;
+}
+
+.link-text-container {
+  display: flex;
+  justify-content: center;
+}
+
+.link-header {
+  margin-bottom: 30px;
+  font-weight: bolder;
+  font-size: larger;
+}
+
+footer p {
+  font-size: 16px;
+}
